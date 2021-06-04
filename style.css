@@ -6,11 +6,15 @@
     box-sizing: border-box;
 }
 body{
+    font-size: 14px;
     color: #fff;
     background-color: brown;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* Utils */
 .container{
@@ -23,11 +27,27 @@ body{
     display: table;
     clear: both;
 }
+.btn-white{
+    color: #000;
+    background-color: #fff;
+}
+.btn-black{
+    color: #fff;
+    background-color: #000;
+}
+.small-btn{
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.big-btn{
+    padding: 15px 20px;
+    border-radius: 30px;
+}
 
 /* Header */
 .topnav{
     height: 80px;
-    background-color: blue;
+    background-color: #255ee9;
 }
 .nav-bar{
     position: relative;
@@ -58,14 +78,40 @@ body{
     right: 0;
     transform: translate(-50%, -50%);
 }
-.nav-bar .btn a{
-    text-decoration: none;
-    color: #000;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 30px;
+
+
+.jumbo-hero{
+    position: relative;
+    height: 550px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+#hero{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.hero-text{
+    padding: 40px;
+    padding-top: 0;
+}
+.hero-text h1{
+    font-size: 3.5em;
+    margin-bottom: 40px;
+}
+
+.hero-btn a{
+    margin: 0 10px;
+}
+.hero-btn a i{
+    margin-right: 10px;
 }
 /* Main */
 
 
 /* Footer */
+
