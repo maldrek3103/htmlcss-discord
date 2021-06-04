@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 14px;
-    color: #fff;
-    background-color: brown;
+    color: #000;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 a{
@@ -27,6 +25,7 @@ a{
     display: table;
     clear: both;
 }
+
 .btn-white{
     color: #000;
     background-color: #fff;
@@ -45,6 +44,7 @@ a{
 }
 
 /* Header */
+
 .topnav{
     height: 80px;
     background-color: #255ee9;
@@ -67,6 +67,7 @@ a{
     text-align: center;
 }
 .main-menu ul li{
+    color: #fff;
     margin: 0 20px;
     line-height: 80px;
     vertical-align: middle;
@@ -98,9 +99,10 @@ a{
 .hero-text{
     padding: 40px;
     padding-top: 0;
+    color: #fff;
 }
 .hero-text h1{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     margin-bottom: 40px;
 }
 
@@ -111,6 +113,26 @@ a{
     margin-right: 10px;
 }
 /* Main */
+
+.main-text h2{
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+}
+.main-text p{
+    font-size: 1.2rem;
+}
+.bg-grey{
+    background-color: #f6f6f6;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.float-left{
+    float: left;
+}
 
 
 /* Footer */
