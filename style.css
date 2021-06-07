@@ -49,6 +49,9 @@ a{
 .bg-grey{
     background-color: #f6f6f6;
 }
+.azure{
+    color: #8ea1e1;
+}
 .col{ 
     float: left;
 }
@@ -60,6 +63,12 @@ a{
 }
 .p-40{
     padding: 40px;
+}
+.w-30{
+    width: 30%;
+}
+.w-15{
+    width: 15%;
 }
 img[alt='Wave']{
     filter: opacity(0.03);
@@ -177,3 +186,64 @@ section.last h3{
 }
 /* Footer */
 
+footer{
+    background-color: #23272a;
+    color: #fff;
+    padding: 100px 0 50px 0;
+}
+.footer-menu{
+    height: 450px;
+}
+.footer-menu h3{
+    width: 250px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #8ea1e1;
+}
+.footer-menu h4{
+    color: #8ea1e1;
+}
+.language-select{
+    height: 20px;
+}
+.language-select img{
+    height: 20px;
+    width: 20px;
+}
+.language-select *{
+    line-height: 20px;
+    vertical-align: middle;
+}
+.language-select p{
+    display: inline-block;
+}
+.language-select p i{
+    margin-left: 10px;
+}
+.social-media{
+    margin: 20px 0;
+}
+.social-media a{
+    margin: 0 5px;
+}
+.social-media a:first-child{
+    margin-left: 0;
+}
+.footer-menu ul li{
+    list-style-type: none;
+}
+.footer-menu *{
+    line-height: 30px;
+}
+footer .end-footer{
+    margin: 30px 0;
+}
+.end-footer{
+    position: relative;
+    height: 50px;
+}
+.end-footer a{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
